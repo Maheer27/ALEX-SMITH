@@ -1,0 +1,355 @@
+
+nav 
+{
+   font: inherit;
+}
+nav .logo a
+{
+    color: #ff305b;
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+}
+nav ul li a 
+{
+    color:white;
+} 
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0,0.8);
+}
+.headercontent
+{
+    background-image: url(../images/slider-01.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.headercontent  h1{
+    color: #ff305b;
+    font-size: 4.5rem;
+}
+
+.headp
+{
+    font-size: 1.5rem;
+}
+
+.headercontent .headp h4::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+@keyframes typing
+{
+    0%{ content: "|D";}
+    4%{ content: "|De";}
+    8%{ content: "|Dev";}
+    12%{ content: "|Deve";}
+    16%{ content: "|Devel";}
+    20%{ content: "|Develo";}
+    24%{ content: "|Develop";}
+    28%{ content: "|Develope";}
+    32%{ content: "|Developer";}
+    36%{ content: "|Developer";}
+    40%{ content: "|Develope";}
+    44%{ content: "|Develop";}
+    48%{ content: "|Develo";}
+    52%{ content: "|Devel";}
+    56%{ content: "|Deve";}
+    60%{ content: "|Dev";}
+    64%{ content: "|De";}
+    68%{ content: "|D";}
+    72%{ content: "|De";}
+    78%{ content: "|Des";}
+    84%{ content: "|Desi";}
+    88%{ content: "|Desig";}
+    92%{ content: "|Design";}
+    96%{ content: "|Designe";}
+    100%{ content: "|Designer";}
+    }
+.about
+{
+    position: relative;
+}
+.aboutimg{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.aboutimg:hover .abouticons
+{
+    top: 0%;
+    opacity: 1;
+    
+
+    background-color: rgba(0,0,0, 0.7);
+  
+ }
+ .abouticons
+{
+    opacity: 0;
+    
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    top: 100%;
+    transition: all 1s;
+}  
+/* .about::before
+{
+    content: "";
+    width: 360;
+    height: 430px;
+    border:     solid  8px #555555;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 0;
+    left: 15%;
+    top:115%;
+} */
+.borderimg
+{
+
+    width: 360;
+    height: 430px;
+    border:     solid  8px #555555;
+     border-radius: 5px; 
+    position: absolute;
+    z-index: 0;
+    left: 8%;
+    bottom: 17%;
+  
+}
+.OurServices ,.Counter ,.cursolitem
+{
+    background-color: f1f1f1;
+}
+.aboutcontent
+
+{
+    width: 50%;
+}
+
+.abouticons i 
+{
+    font-size: 1.2rem;
+}
+.aboutcontent p
+
+{
+    border-bottom: 1px #999999 dashed;
+    color: #555555;
+
+    
+}
+.aboutcontent h2::after
+{
+    content: "";
+    width: 4px;
+    height: 1.5rem;
+    background-color:#ff305b ;
+    position: absolute;
+    left: 3.2rem;
+    top: 1.6rem;
+
+}
+table 
+{
+    border-collapse:separate; 
+    border-spacing:1em;
+    margin: 10px;
+    color: #555555;
+}
+.about span
+{
+    color: #333333;
+    font-weight: 500;
+}
+
+.portfolioborder
+{
+    width: 20%;
+    height: 50px;
+}
+.border1
+{
+    width: 5%;
+    height: 50%;
+    border:#ff305b ;
+background-color: white;
+}
+.border2
+{
+    width: 10%;
+    height: 50%;
+    border: #ff305b ;
+    background-color: white;
+
+}
+
+.portfolionav .nav .nav-item a{
+    color: black;
+
+}
+.navcontent a:hover{
+    color: #ff305b;
+
+}
+
+ .fa-link
+{
+
+    color:#ff305b !important ;
+}
+
+.foliolayer
+{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: all 1s;
+}
+.nav-item:hover .foliolayer
+{
+    opacity: 1;
+}
+#portfolio-nav a{
+    background-color: white;
+    color: black;
+
+}
+#portfolio-nav a.active
+{
+    color:#ff305b !important ;
+}
+
+ .line
+{
+    background-color:#ff305b  !important;
+    height: 1px;
+
+}
+h2 
+{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3
+
+{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.service-icon
+{
+    font-size: 200px;
+}
+
+.servicecard
+{
+
+    transition: all .5s;
+}
+
+.fa-card 
+{
+    transition: all .5s;
+    font-size: 30px !important;
+    color: #ff305b !important;
+
+}
+
+.servicecard:hover
+{
+    background-color: white;
+}
+.servicecard:hover .fa-card 
+{
+    transform: scale(1.2);
+}
+
+.counter-fa
+{
+    color: #ff305b;
+}
+
+.counterCard h3
+{
+    font-weight: 800 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+.counterCard h5
+{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color: #555555 !important;
+}
+
+.imageslider
+{
+    width:35%;
+    z-index: 1;
+    
+}
+
+.cursolitem
+{
+    width:60% !important;
+
+}
+.slidercontent a{
+    color: #777777;
+    list-style: none;
+}
+.slidercontent p{
+    font-family: 'Source Sans Pro', sans-serif !important;
+width: 90%;
+color: #777777;
+}
+
+.checked
+{
+    color: orange;
+}
+
+.sliderrotate
+{
+    background-color: #ff305b !important;
+    z-index: 0;
+    width: 350px  !important;
+    height: 350px !important;
+    left: -25% !important;
+    top:-70% !important;
+    transform: rotate(45deg);
+    }
+
+    .carousel-custom
+{
+    background-color:#fff !important;
+
+    border-radius: 50%;
+    width: 20px;
+}
+.carousel-indicators li a.active
+{
+    background-color: #ff305b !important;
+
+    
+}
